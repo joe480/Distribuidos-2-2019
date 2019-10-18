@@ -1,0 +1,7 @@
+ module cotesApp{
+ interface cotes{ 
+ string calcular(in long idcliente);
+ string pagar(in string facturas);
+ oneway void shutdown();
+ }; 
+ };
